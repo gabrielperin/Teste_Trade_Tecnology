@@ -1,0 +1,2 @@
+2 Inicialmente realizei um left join na tabela producao_sistema_legado para que ela ficasse com as colunas idênticas a da tabela db_sistema_core. O objetivo é unicifar os dados do sistema legado com o do sistema core para ter um histórico único. Sendo assim realizei a concatenação dessas duas tabelas, unificando-as. Por fim, foi criado um modelo de dados, relacionando as três tabelas resultantes.
+
