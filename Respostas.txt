@@ -1,0 +1,11 @@
+1 As tabelas foram imoportadas e tratadas no Power Query. Houve a necessidade de alterar alguns tipos de dados e corrigir os nomes das cidades.
+
+2 Inicialmente realizei um left join na tabela producao_sistema_legado para que ela ficasse com as colunas idênticas a da tabela db_sistema_core. O objetivo é unicifar os dados do sistema legado com o do sistema core para ter um histórico único. Sendo assim realizei a concatenação dessas duas tabelas, unificando-as. Por fim, foi criado um modelo de dados, relacionando as três tabelas resultantes.
+
+3 Criada nova tabela 'produtividade' contendo o cálculo da Produção/#Colaboradores que ficou registrada na coluna 'produtividade'. Além do mais, os resultados foram agrupados por mês e por filial.
+
+4 Analisando o gráfico e a tabela, vemos que a maior produtividade entre os meses de janeiro a abril é da filial de Pato Branco. Já em maio a filial de Curitiba assume a liderança.
+
+5 Dashboard
+
+6 Entre janeiro e fevereiro houve um aumento na produtividade de todas as filiais, com destaque para 8.7% na de Pato Branco. De março em diante todas as filiais apresentaram queda em suas produções (já que o número de funcionários é constante). Cascavel, Jaguapirã e Ponta Grossa apresentam o pior desempenho olhando para o ano todo. Ao olhar para as regiões paranaenses vemos que a leste é responsável pelos piores indicadores.
